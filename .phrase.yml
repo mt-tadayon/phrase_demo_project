@@ -3,18 +3,18 @@ phrase:
   file_format: i18next
   push:
     sources:
-      - file: ./locales/en-US.arb
+      - file: ./l10n/en-US.arb
         params:
-          file_format: dsimple_arb
+          file_format: simple_arb
           locale_id: aa76c6a5663636a57b433c0e4caa1f68
           autotranslate: true
   pull:
     targets:
-      - file: ./locales/de-DE.arb
+      - file: ./l10n/de-DE.arb
         params:
           file_format: silmple_arb
           locale_id: 9684ffd74de42b08fc20c7a1b5965b53
-      - file: ./locales/en-EN.arb
+      - file: ./l10n/en-EN.arb
         params:
           file-format: simple_arb
           locale_id: 36530953b3c0313ba06c4d7c44994771
