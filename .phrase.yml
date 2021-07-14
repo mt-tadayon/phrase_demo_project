@@ -1,20 +1,14 @@
 phrase:
+  access_token: a8c430fdd09f534ee8c430f494a58a11c3d8263b814a71981c50d316a484aa2a
   project_id: 8f4b6aa59b8fe3a4755d4ead3aa2dced
-  file_format: i18next
   push:
     sources:
-      - file: ./l10n/en-US.arb
-        params:
-          file_format: simple_arb
-          locale_id: aa76c6a5663636a57b433c0e4caa1f68
-          autotranslate: true
+    - file: lib/l10n/app_en.arb
+      params:
+        file_format: arb
   pull:
     targets:
-      - file: ./l10n/de-DE.arb
-        params:
-          file_format: silmple_arb
-          locale_id: 9684ffd74de42b08fc20c7a1b5965b53
-      - file: ./l10n/en-EN.arb
-        params:
-          file-format: simple_arb
-          locale_id: 36530953b3c0313ba06c4d7c44994771
+    - file: lib/l10n/app_en.arb
+      params:
+        file_format: arb
+        locale_id: aa76c6a5663636a57b433c0e4caa1f68

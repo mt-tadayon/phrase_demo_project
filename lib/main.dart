@@ -4,8 +4,11 @@ import 'package:flutter_gen/gen_l10n/phrase_localizations.dart';
 import 'package:phrase/phrase.dart';
 
 void main() {
-  Phrase.setup("a948ac17337bfd47215d4638a6efa3b2",
-      "DgGxUSepQKTfgG3eq-AQ9u2b5p0BjFSF-uPTcFJpw7g");
+  Phrase.setup(
+    "a948ac17337bfd47215d4638a6efa3b2",
+    "DgGxUSepQKTfgG3eq-AQ9u2b5p0BjFSF-uPTcFJpw7g",
+    checkForUpdates: false,
+  );
   runApp(MyApp());
 }
 
@@ -56,9 +59,8 @@ class _MyHomePageState extends State<MyHomePage> {
               'You have pushed the button this many times:',
             ),
             Text(
-              '$_counter ${AppLocalizations.of(context).helloWorld}',
-              style: Theme.of(context).textTheme.headline4,
-            ),
+                '$_counter ${AppLocalizations.of(context).layouts_application_my_mails('Basti')}',
+                style: Theme.of(context).textTheme.headline4),
           ],
         ),
       ),

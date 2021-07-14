@@ -1,0 +1,80 @@
+{
+  "@@locale": "en",
+  "general_back": "Back",
+  "@general_back": {
+    "type": "text"
+  },
+  "general_cancel": "Cancel",
+  "@general_cancel": {
+    "type": "text"
+  },
+  "general_confirm": "Are you sure?",
+  "@general_confirm": {
+    "type": "text"
+  },
+  "general_destroy": "Delete",
+  "@general_destroy": {
+    "type": "text"
+  },
+  "general_edit": "Edit",
+  "@general_edit": {
+    "type": "text"
+  },
+  "general_new": "New",
+  "@general_new": {
+    "type": "text"
+  },
+  "hello": "Hello world",
+  "@hello": {
+    "type": "text"
+  },
+  "hello_world": "Hello World!",
+  "@hello_world": {
+    "type": "text"
+  },
+  "layouts_application_about": "About",
+  "@layouts_application_about": {
+    "type": "text"
+  },
+  "layouts_application_account": "Account",
+  "@layouts_application_account": {
+    "type": "text"
+  },
+  "layouts_application_app_store": "App Store",
+  "@layouts_application_app_store": {
+    "type": "text"
+  },
+  "layouts_application_imprint": "Imprint",
+  "@layouts_application_imprint": {
+    "type": "text"
+  },
+  "layouts_application_logout": "Logout",
+  "@layouts_application_logout": {
+    "type": "text"
+  },
+  "layouts_application_my_mails": "My Mails {name}",
+  "@layouts_application_my_mails": {
+    "type": "text",
+    "placeholders": {"name": {} }
+  },
+  "layouts_application_press": "Press",
+  "@layouts_application_press": {
+    "type": "text"
+  },
+  "layouts_application_preview": "Preview",
+  "@layouts_application_preview": {
+    "type": "text"
+  },
+  "layouts_application_profile": "Profile",
+  "@layouts_application_profile": {
+    "type": "text"
+  },
+  "layouts_application_sign_in": "Login",
+  "@layouts_application_sign_in": {
+    "type": "text"
+  },
+  "layouts_application_sign_up": "Register",
+  "@layouts_application_sign_up": {
+    "type": "text"
+  }
+}
